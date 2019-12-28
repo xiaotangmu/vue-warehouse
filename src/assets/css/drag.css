@@ -1,0 +1,39 @@
+#drag{
+    position: relative;
+    background-color: #e8e8e8;
+    /*width: 300px;*/
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+}
+#drag .handler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+.handler_bg{
+    background-color: #fff;
+}
+.handler_ok_bg{
+    background-color: #fff;
+}
+#drag .drag_bg{
+    background-color: #60AD94;
+    height: 43px;
+    width: 0px;
+}
+#drag .drag_text{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 300px;
+    color:#9c9c9c;
+    font-size: 12px;
+}
+.green{
+	color: #60AD94;
+}

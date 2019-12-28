@@ -1,0 +1,63 @@
+.main_head{
+    height: 60px;
+    /*background-color: #1A4364;*/
+    position: relative;
+    box-shadow: 0px 2px 10px -2px #aaa;
+    z-index: 10;
+}
+.main_head span:hover{
+    cursor: pointer;
+    color: #60AD94;
+}
+.main_head_left{
+    float: left;
+    font: 25px 'youyuan';
+    font-weight: 300;
+    margin: 9px 150px;
+}
+.main_head_left span{
+    font-size: 30px;
+    font-weight: 500;
+    color: #60AD94;
+}
+.main_head_right{
+    /*line-height: 60px;*/
+    float: right;
+    font: 18px "YouYuan";
+    margin: 0 150px;
+    position: relative;
+}
+.img_span {
+    margin: 15px 0;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main_head_right_other{
+    /*display: inline-block;*/
+    /*margin: 15px 0;*/
+    width: 280px;
+    position: absolute;
+    left: -245px;
+    /*top: 21px;*/
+}
+.main_head_right_other .form-control{
+    margin-top: 15px;
+}
+.main_head_right_other input{
+    border: none;
+}
+.main_head_right .span_icon {
+    position: absolute;
+    left: 210px;
+    top: 20px;
+}
+.main_head_right_photo{
+    display: inline-block;
+    position: relative;
+}
+.main_head_right_photo .dropdown-menu{
+    top: 60px;
+}
