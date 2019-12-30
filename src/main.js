@@ -14,15 +14,17 @@ Vue.component(Toast)
 Vue.config.productionTip = false
 
 // 引入全局样式
+import './assets/css/reset-min.css'
 import './assets/css/bootstrap.css'
 import './assets/css/drag.css'
 import './assets/css/login.css'
 import './assets/css/main_header.css'
-import './assets/css/reset-min.css'
 
 import './assets/js/bootstrap.min.js'
 import './assets/js/drag.js'
 import './assets/js/login.js'
+import './assets/js/register.js'
+import './assets/js/main.js'
 
 /* eslint-disable no-new */
 new Vue({
