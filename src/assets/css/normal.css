@@ -1,0 +1,17 @@
+.checkbox-choose{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  /*background-color: #6CB7A0;*/
+  background: url("../img/non-choose.jpg");
+}
+.checkbox-choose-full{
+  background: url("../img/full-choose.jpg");
+}
+.checkbox-choose-part{
+  background: url("../img/part-choose.jpg");
+}
+.list-item-btn-span{
+  font-size: 14px;
+  padding: 0 20px;
+}

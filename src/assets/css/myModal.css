@@ -1,0 +1,38 @@
+.my-modal{
+  background: rgba(43,43,43,0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 15;
+}
+.my-modal-content-div{
+  width: 900px;
+  background-color: #fff;
+  /*height: 500px;*/
+  /*position: absolute;*/
+  margin: 50px auto 0;
+}
+.my-modal-title{
+  height: 60px;
+  line-height: 60px;
+  /*background-color: #6CB7A0;*/
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.my-modal-content{
+  padding: 10px 10px 30px;
+  font-size: 16px;
+}
+.my-modal-remove{
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  margin: 25px 0;
+}
+.my-modal-remove:hover{
+  color: darkred;
+  cursor: pointer;
+}

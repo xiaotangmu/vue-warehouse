@@ -109,10 +109,10 @@
 
       $(".main_head_right_photo").hover(
         function(){
-          $(".dropdown-menu").show("slow");
+          $(".dropdown-menu").show();
         },
         function(){
-          $(".dropdown-menu").hide("slow");
+          $(".dropdown-menu").hide();
         }
       );
 
@@ -152,6 +152,7 @@
     bottom: 0;
     /*background-color: tan;*/
     z-index: 8;
+    overflow: auto;
   }
   .main_body_left{
     float: left;

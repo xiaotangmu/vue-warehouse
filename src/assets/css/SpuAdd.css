@@ -1,0 +1,180 @@
+.spu-add-group{
+  /*background-color: #f7e1b5;*/
+  /*width: 1000px;*/
+  /*margin: 0 auto;*/
+  font-size: 16px;
+  margin: 30px 0;
+}
+.spu-add-item-title{
+  /*background-color: #2e6da4;*/
+  width: 150px;
+  display: inline-block;
+  text-align: right;
+  margin-left: 290px;
+  padding-right: 10px;
+  /*position: relative;*/
+}
+.spu-add-item-title-div{
+  /*float: right;*/
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  height: 100%;
+  /*text-align: right;*/
+}
+.spu-add-item-content{
+  display: inline-block;
+  /*background-color: #60AD94;*/
+  width: 500px;
+}
+.spu-add-item-title-textArea{
+  float: left;
+  margin: 5px 5px 0 290px;
+  width: 150px;
+  padding-right: 10px;
+  text-align: right;
+}
+.spu-add-item-title-div-textArea{
+
+}
+.spu-down-list,
+.spu-add-catalog{
+  height: 35px;
+  border-color: #cccccc;
+  line-height: 35px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.spu-add-list{
+  float: right;
+  margin: 10px;
+  color: #ccc;
+}
+.spu-add-catalog-hover{
+  box-shadow: 1px 1px 5px 1px #66AFE9;
+}
+.spu-catalog-choose-list{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  /*background-color: #f5f5f5;*/
+  background-color: #fff;
+  overflow: auto;
+  z-index: 13;
+  /*scrollbar-arrow-color: #f4ae21; !**!!*三角箭头的颜色*!*/
+  /*scrollbar-face-color: red; !**!!*立体滚动条的颜色*!*/
+  /*scrollbar-3dlight-color: #d0e9c6; !**!!*立体滚动条亮边的颜色*!*/
+  /*scrollbar-highlight-color: #c0a16b; !**!!*滚动条空白部分的颜色*!*/
+  /*scrollbar-shadow-color: #dff0d8; !**!!*立体滚动条阴影的颜色*!*/
+  /*scrollbar-darkshadow-color: #d9534f; !**!!*立体滚动条强阴影的颜色*!*/
+  /*scrollbar-track-color: #e5e5e5; !**!!*立体滚动条背景颜色*!*/
+  /*scrollbar-base-color:#d58512; !**!!*滚动条的基本颜色*!*/
+}
+
+/*滚动条样式*/
+/*.spu-catalog-choose-list::-webkit-scrollbar {!*滚动条整体样式*!*/
+/*width: 4px;     !*高宽分别对应横竖滚动条的尺寸*!*/
+/*height: 4px;*/
+/*}*/
+/*!*滚动条的轨道*!*/
+/*.spu-catalog-choose-list::-webkit-scrollbar-track {*/
+/*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+/*border-radius: 5px;*/
+/*background: rgba(0,0,0,0.1);*/
+/*}*/
+/*!*滚动条里面小滑块*!*/
+/*.spu-catalog-choose-list::-webkit-scrollbar-thumb {*/
+/*border-radius: 5px;*/
+/*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+/*background: rgba(0,0,0,0.2);*/
+/*}*/
+
+.spu-catalog-choose-list0{
+  float: left;
+  width: 166px;
+  height: 100%;
+  overflow: auto;
+}
+.spu-catalog-choose-list-left{
+  /*background-color: #d58512;*/
+}
+.spu-catalog-choose-list-center{
+  /*background-color: #e5e5e5;*/
+}
+.spu-catalog-choose-list-right{
+  /*background-color: #d9534f;*/
+}
+._mCS_5 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+._mCS_4 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+._mCS_3 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+._mCS_2 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+._mCS_1 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+  /*background: rgba(0,0,0,0.4);*/
+  background: red;
+  width:3px;
+}
+._mCS_5 .mCSB_scrollTools .mCSB_draggerRail,
+._mCS_4 .mCSB_scrollTools .mCSB_draggerRail,
+._mCS_3 .mCSB_scrollTools .mCSB_draggerRail,
+._mCS_2 .mCSB_scrollTools .mCSB_draggerRail,
+._mCS_1 .mCSB_scrollTools .mCSB_draggerRail{
+  /*background: rgba(0,0,0,0.6);*/
+  background: #333333;
+  width:3px;
+}
+.spu-catalog-item{
+  /*background-color: #dff0d8;*/
+  /*color: #316AC5;*/
+  font: 14px 'yunyuan';
+  text-align: left;
+  padding: 5px 10px;
+
+}
+.spu-catalog-item-hover{
+  background-color: #ccc;
+  /*background-color: #5394EC;*/
+  cursor: pointer;
+}
+/*.spu-catalog-second{*/
+/*background-color: #d9534f;*/
+/*width: 166px;*/
+/*position: absolute;*/
+/*left: 150px;*/
+/*}*/
+.catalog-chose{
+  color: #4890D1;
+}
+.spu-down-list-content{
+  width: 500px;
+  position: absolute;
+  max-height: 165px;
+  /*background-color: #6CB7A0;*/
+  overflow: auto;
+}
+.spu-down-list-item{
+  padding: 5px 0 5px 10px;
+  /*line-height: 25px;*/
+}
+.spu-attr-item{
+  position: relative;
+  padding: 5px 0 5px 35px;
+}
+.spu-down-list-item:hover{
+  background-color: #ccc;
+}
+.multiple-choose-checkbox{
+  /*margin: 5px 0;*/
+  display:inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  background: url("./../../../assets/css/img/non-choose.jpg");
+}
+.checkbox-choose{
+  background: url("./../../../assets/css/img/full-choose.jpg");
+}
+.spu-attr-name{/*防止变形*/
+  padding-right: 1px;
+}
