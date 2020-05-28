@@ -55,6 +55,10 @@
     left: 210px;
     top: 20px;
 }
+.main_head_right .span_icon:hover {
+  cursor: pointer;
+  color: #60AD94;
+}
 .main_head_right_photo{
     display: inline-block;
     position: relative;

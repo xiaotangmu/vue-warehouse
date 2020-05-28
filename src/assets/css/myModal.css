@@ -10,9 +10,10 @@
 .my-modal-content-div{
   width: 900px;
   background-color: #fff;
+  margin: 50px auto;
   /*height: 500px;*/
   /*position: absolute;*/
-  margin: 50px auto 0;
+
 }
 .my-modal-title{
   height: 60px;
@@ -23,8 +24,10 @@
   padding: 0 20px;
 }
 .my-modal-content{
-  padding: 10px 10px 30px;
+  padding: 20px 10px 40px;
   font-size: 16px;
+  max-height:  650px;
+  /*background-color: #e3e3e3;*/
 }
 .my-modal-remove{
   display: inline-block;
@@ -35,4 +38,37 @@
 .my-modal-remove:hover{
   color: darkred;
   cursor: pointer;
+}
+.my-modal-group{
+  position: relative;
+}
+.my-modal-group-title{/*文本属性名，向右对齐*/
+  width: 120px;
+  position: absolute;
+  left: 60px;
+  text-align: right;
+  line-height: 35px;
+}
+.my-modal-group-main{/*文本内容*/
+  width: 500px;
+  /*background-color: #e3e3e3;*/
+  margin-left: 190px;
+}
+.my-modal-form-submit{
+  margin-top: 20px ;
+}
+.my-modal-group{
+  margin: 20px 0;
+}
+.my-modal-group-textarea{
+  resize: none;
+}
+.my-modal-group-main-down{
+  position: absolute;
+  left: 475px;
+  top: 10px;
+  color: #ccc;
+}
+.my-modal-group-main-down-div{
+  position: relative;
 }

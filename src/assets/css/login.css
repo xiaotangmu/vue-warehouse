@@ -74,8 +74,8 @@ html,body{
 .login_right_main_btn{
     background-color: #60AD94;
     text-align: center;
-    padding: 5px;
-    font: 23px '微软雅黑';
+    font: 16px '微软雅黑';
+    line-height: 40px;
     color: #fff;
 }
 .login_right_main_btn:hover{
