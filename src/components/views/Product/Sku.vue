@@ -681,7 +681,7 @@
             style="border: none;font-size: 14px;width:60px;margin-right: 10px;"
             type="danger"
           >警报值</el-tag>
-          <el-input-number style="width: 150px" v-model="num" :min="0" :max="999999" label="描述文字"></el-input-number>
+          <el-input-number style="width: 150px" v-model="updateAlarmValue" :min="0" :max="999999" label="描述文字"></el-input-number>
           <el-tag
             type="info"
           >为0, 不报警</el-tag>
@@ -722,6 +722,15 @@
         let that = this;
 
         return{
+
+          priceErrorTip: '',
+          warehouseErrorFlag: '',
+          warehouseErrorTip: '',
+          numErrorFlag: '',
+          numErrorTip: '',
+          priceErrorFlag: '',
+
+
           pickerOptions: {
             disabledDate(time) {
               return time.getTime() > Date.now();
@@ -1097,7 +1106,7 @@
 
           const data = { catalog3Id: selectCatalog[2], catalogName: c1.name + '/' + c2.name + '/' + c3.name, brandId: brandId, brandName: b1.name,
             name: s1.name, spuId: spuId, baseAttrs: attr, num: num, price: price, totalPrice: Math.round((num*price) * 100) / 100, unit: unit,attrValues: attrValues,
-            selectCatalog: selectCatalog, warehouseId: warehouseId, warehouseName: w1.name, attrValueStr: s };
+            selectCatalog: selectCatalog,alarmValue: this.updateAlarmValue, warehouseId: warehouseId, warehouseName: w1.name, attrValueStr: s };
 
           return data;
         },
@@ -1595,8 +1604,6 @@
     margin: 0 auto;
     padding: 20px 0 0 0;
   }
-  @import "./../../../../plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.css";
-
   .sku_item_model{
     /*border: 1px solid #60AD94;*/
     width: 500px;

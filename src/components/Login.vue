@@ -235,7 +235,8 @@
     methods:{
 
       openRegister(){
-        window.location.href = '/#/register';
+        window.location.href = '#/register';
+        // this.$router.push('/register');
       },
       //获取验证码
       getValidateCode(){
@@ -321,7 +322,8 @@
               if(response.data.code === '101'){
                 this.$cookies.set('token', response.data.extend);
                 this.$store.state.username = data.name;
-                window.location.href = '/#/mainBox';
+                // window.location.href = '#/mainBox';
+                this.$router.push('/mainBox');
                 storageUtils.saveName(data.name);
 
               }else if(response.data.code === '102'){

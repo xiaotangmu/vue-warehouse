@@ -3,7 +3,7 @@
     <div class="register_logo">
       <div class="register_title" @click="changeRoute()"><span class="glyphicon glyphicon-grain"></span>仓库</div>
       <div class="register_welcome">欢迎注册</div>
-      <div class="register_return"><span>已有账号？</span> <a href="login">去登录 <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></a></div>
+      <div class="register_return"><span>已有账号？</span> <a href="./#/login">去登录 <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></a></div>
     </div>
     <div class="register_main form-horizontal">
       <div class="register_main_input">
@@ -169,7 +169,8 @@
         this.isLoad = false;
         $("#register_btn_id").removeAttr("disabled");
         if(result){
-          window.location.href = 'login';
+          // window.location.href = '#/login';
+          this.$router.push("/login");
         }
 
       },
